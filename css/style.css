@@ -1,0 +1,490 @@
+/* -------start fraemwork------ */
+
+.text-center {
+	text-align: center;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: #030919bf;
+}
+h1,
+h2,
+h3,
+h4,
+button {
+	font-family: Verdana;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+p,
+span,
+a {
+	font-family: sans-serif;
+}
+/* -------End fraemwork------ */
+/* ----------start header-------------- */
+.header {
+	min-width: 1200px;
+	background-image: url("../img/w6.jpg");
+	background-size: cover;
+}
+/* ------- bxSlider --------- */
+.header .bx-wrapper {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background-color: tomato;
+}
+/* ------- bxSlider --------- */
+.header .title h1 {
+	color: #fff;
+	font-size: 70px;
+	font-weight: 800;
+	letter-spacing: 15px;
+}
+.header .title p {
+	color: #fff;
+}
+.bx-pager.bx-default-pager,
+.bx-next,
+.bx-prev{
+display: none;
+}
+/*------------*/
+.header .title button {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 90px;
+	background-color: transparent;
+	border: 2px solid tomato;
+	border-radius: 10px;
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+.header .title button:hover {
+	background-color: tomato;
+}
+.header .arrow {
+	padding: 100px;
+}
+.header .arrow i {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 8px;
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+	color: #fff;
+}
+.header .arrow i:hover {
+	color: #fff;
+	border: 1px solid tomato;
+	background-color: tomato;
+}
+/* ----------End header-------------- */
+/* ----------start Nav-------------- */
+.nav-bar {
+	min-width: 1200px;
+	background-color: #000;
+	box-shadow: 2px 3px 6px #333;
+}
+.parnt-grid-nav {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.parnt-grid-nav .logo h1 {
+	color: #fff;
+}
+.parnt-grid-nav .logo h1 span {
+	color: tomato;
+}
+.parnt-grid-nav nav ul {
+	list-style: none;
+}
+.parnt-grid-nav nav ul li {
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 10px 15px 0;
+}
+.parnt-grid-nav nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 800;
+	padding-bottom: 10px;
+	border-bottom: 4px solid transparent;
+}
+.parnt-grid-nav nav ul li.active a,
+.parnt-grid-nav nav ul li a:hover {
+	color: tomato;
+	border-bottom: 4px solid tomato;
+}
+/* ----------End Nav-------------- */
+/* ------------ Start fet ---------  */
+.fet-item {
+	margin: 80px 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+}
+.fet-item i {
+	border-radius: 50%;
+	border: 2px solid tomato;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin-bottom: 20px;
+	transition: all 0.5s ease-in-out;
+}
+.fet-item i:hover {
+	background-color: tomato;
+	color: #fff;
+}
+/* ------------ End fet ---------  */
+/* -----------Start About Area----------- */
+.about-area {
+	background-color: #f3f1f2;
+}
+.about-area .about-me p.bo {
+	margin-bottom: 50px;
+}
+.about-area .grid-a {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+}
+.about-area .grid-a .img img {
+	width: 100%;
+	height: 100%;
+}
+.about-me .r1 {
+	margin-bottom: 25px;
+}
+.about-me .r1 h2 {
+	color: tomato;
+}
+.about-me .to-col {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.about-me .to-col .o {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+.about-me .to-col .o i {
+	margin: 0 20px 0;
+	color: tomato;
+	font-weight: 800;
+}
+.about-me .to-col .o p {
+	margin-left: -60px;
+}
+/* -----------End About Area-------------- */
+/* -----------Start Skill Area-------------- */
+.skill-area {
+	margin: 80px 0;
+}
+.skill-area .grid-s {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+}
+.rx .btn {
+	margin: 35px 0;
+}
+.rx .btn button {
+	padding: 15px 30px;
+	border: 1px solid tomato;
+	border-radius: 7px;
+	background-color: transparent;
+	font-weight: 800;
+	color: tomato;
+	transition: 0.7s ease-in-out;
+}
+.rx .btn button:hover {
+	background-color: tomato;
+	color: #fff;
+	transform: translateX(15px);
+}
+.skill-area .grid-s .skill .i1 p {
+	width: 100%;
+	height: 25px;
+	background-color: #dce0e2;
+}
+.skill-area .grid-s .skill .i1 p span {
+	width: 0%;
+	display: block;
+	height: 100%;
+	line-height: 25px;
+	text-align: end;
+	padding: 0 10px;
+	border-radius: 0 15px 15px 0;
+	background-color: rgba(255, 99, 71, 0.411);
+	color: transparent;
+	transition: 1s ease-in-out;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(1) p span {
+	width: 97%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(2) p span {
+	width: 80%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(3) p span {
+	width: 30%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(4) p span {
+	width: 50%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(5) p span {
+	width: 10%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(6) p span {
+	width: 10%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(7) p span {
+	width: 20%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(8) p span {
+	width: 20%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(9) p span {
+	width: 20%;
+	color: #fff;
+	background-color: tomato;
+}
+.skill-area:hover .grid-s .skill .i1:nth-child(10) p span {
+	width: 10%;
+	color: #fff;
+	background-color: tomato;
+}
+/* -----------End Skill Area-------------- */
+/* ---------Strat  Portofolio area--------- */
+.port-area .filter ul {
+	list-style: none;
+	margin: 50px 0;
+}
+.port-area .filter ul li {
+	display: inline-block;
+	padding: 10px 25px;
+	margin-left: 8px;
+	border: 1px solid tomato;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.port-area .filter ul li:hover,
+.port-area .filter ul li.selct {
+	background-color: tomato;
+	color: #fff;
+}
+.port-area .grid3-box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+}
+.port-area .grid3-box .all,
+.port-area .grid3-box .more {
+	position: relative;
+	width: 100%;
+	height: 360px;
+}
+.port-area .grid3-box .all img,
+.port-area .grid3-box .more img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.port-area .grid3-box .all .ovarlay,
+.port-area .grid3-box .more .ovarlay {
+	width: 50%;
+	height: 0%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+.port-area .all .ovarlay h4,
+.port-area .more .ovarlay h4 {
+	margin-top: 100px;
+	color: #fff;
+	font-weight: 550;
+}
+.port-area .all .ovarlay p,
+.port-area .more .ovarlay p {
+	color: #fff;
+	line-height: 2;
+	margin-bottom: 50px;
+}
+.port-area .all .ovarlay button,
+.port-area .more .ovarlay button {
+	padding: 12px 35px;
+	background-color: transparent;
+	border: 1px solid #dce0e2;
+	border-radius: 10px;
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+.port-area .all .ovarlay button:hover,
+.port-area .more .ovarlay button:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: tomato;
+}
+.port-area .grid3-box .all:hover .ovarlay,
+.port-area .grid3-box .more:hover .ovarlay {
+	opacity: 1;
+	background-color: rgba(255, 99, 71, 0.9);
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 50% 0;
+}
+/* Strat filter classs */
+.port-area .hidden {
+	display: none;
+	transition: all 0.4s ease-in-out;
+}
+.port-area .see-more {
+	margin: 50px 0 100px;
+}
+.port-area .see-more .see {
+	padding: 12px 35px;
+	background-color: #e2ac66;
+	border: 1px solid #e2ac66;
+	border-radius: 10px;
+	color: #000;
+	transition: all 0.5s ease-in-out;
+}
+.port-area .see-more .see:hover {
+	background-color: tomato;
+	border: 1px solid #fff;
+	color: #fff;
+}
+/* ---------End  Portofolio area----------- */
+/* -------------Start testim---------- */
+.testim {
+	background-image: url("../img/w2.jpg");
+	background-size: cover;
+}
+.testim h2 {
+	margin-top: 50px;
+	padding: 50px;
+	color: #fff;
+	font-weight: 500;
+}
+.testim .client {
+	color: #fff;
+	padding: 0 50px 50px 50px;
+}
+.testim .client p {
+	margin: 20px 0 40px;
+	line-height: 2;
+}
+.testim .client img {
+	width: 70px;
+	height: 70px;
+}
+.testim .client p span,
+.testim .client h3 {
+	color: tomato;
+	font-weight: 500;
+}
+.testim .client > div {
+	display: none;
+	transition: all 0.7s ease-in-out;
+}
+.testim .client .show-s {
+	display: block;
+}
+/* -------------End testim------------ */
+/* -------------Start ouer team------- */
+.our-team {
+	margin: 100px 0;
+}
+.our-team h2 {
+	font-weight: 500;
+	font-size: 35px;
+}
+.our-team h2 span {
+	color: tomato;
+}
+.our-team p {
+	line-height: 1.9;
+}
+.our-team .team {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	margin: 90px 0;
+}
+.our-team .team .person {
+	width: 100%;
+}
+.our-team .team .person img {
+	width: 100%;
+	height: 355px;
+	border-radius: 10px;
+	filter: gray;
+	filter: grayscale(1);
+	transition: all 0.5s ease-in-out;
+	border: 4bx solid transparent;
+	margin-bottom: 30px;
+}
+.our-team .team .person h3 {
+	font-weight: 600;
+}
+.our-team .team .person p {
+	line-height: 1.5;
+}
+.our-team .team .person h3,
+.our-team .team .person i,
+.our-team .team .person p {
+	color: gray;
+	transition: all 0.5s ease-in-out;
+}
+.our-team .team .person:hover h3,
+.our-team .team .person:hover p {
+	color: #000;
+}
+.our-team .team .person:hover i:first-child {
+	color: #3b5998;
+}
+.our-team .team .person:hover i:nth-child(2) {
+	color: #dc4e41;
+}
+.our-team .team .person:hover i:last-child {
+	color: #55acee;
+}
+.our-team .team .person:hover img {
+	filter: none;
+	filter: grayscale(0);
+	border-bottom: 4px solid tomato;
+	transform: scale(1.1, 1.1);
+}
+/* -------------End ouer team-------- */
+/* ---------Start Contact area--------- */
+.contact {
+	background-image: url("../img/w8.jpg");
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+}
+/* ---------End Contact area----------- */

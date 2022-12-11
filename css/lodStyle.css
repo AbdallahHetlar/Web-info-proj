@@ -1,0 +1,19 @@
+.loding {
+    width: 100px;
+    height: 100px;
+    /* background: tomato; */
+    color:#333;
+    text-align: center;
+    line-height: 100px;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 300px auto;
+    border-radius: 50%;
+    border: 5px tomato;
+    border-style: dotted dashed double;
+    
+}
+/* @keyframes loder {
+    0% {color: tomato;};
+    100% {color:  #000;}
+} */
